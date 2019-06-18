@@ -1,0 +1,8 @@
+# cook your dish here
+t=int(input())
+for tc in range(t):
+    (q,p)=map(int, input().split())
+    if q>1000:
+        print ("{:.6f}".format((p*q*9)/10))
+    else:
+        print ("{:.6f}".format(float(p*q)))
